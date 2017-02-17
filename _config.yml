@@ -1,33 +1,31 @@
-url: https://42Lab.io
-baseurl: /42Lab/
-
-# Site settings
+---
 title: 42Lab
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+url: https://42Lab.io
+baseurl: "/42Lab/"
 email: data@9lab.co
-description: "First Portable Hardware Platform for Biotech Experiments"
-
-
-# Team names, titles and social links
+description: First Portable Hardware Platform for Biotech Experiments
 people:
 - name: Dr.Data Ng
   pic: 1
   position: Co-founder and CEO
   social:
-    - title: twitter
-      url: https://twitter.com/Data_ng
-    - title: linkedin
-      url: https://hk.linkedin.com/in/datackng
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
   - title: twitter
-    url: http://twitter.com/42LabBio
-
-# Postal address (add as many lines as necessary)
+    url: https://twitter.com/Data_ng
+  - title: linkedin
+    url: https://hk.linkedin.com/in/datackng
+social:
+- title: twitter
+  url: http://twitter.com/42LabBio
 address:
-  - line: 10/F, Cheung Hing Industrial Building,
-  - line: 12P Smithfield, Kennedy Town, HKSAR
-
-# Build settings
+- line: 10/F, Cheung Hing Industrial Building,
+- line: 12P Smithfield, Kennedy Town, HKSAR
 markdown: kramdown
 permalink: pretty
