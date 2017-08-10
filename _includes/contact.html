@@ -63,7 +63,7 @@
                         <input type="submit" value="Submit">
                     </form> -->
 
-                    <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfqzNMqA3vugrL0J04Mk7D2FiWxE5qBqDieiWCIGTBmbrdigQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                    <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfqzNMqA3vugrL0J04Mk7D2FiWxE5qBqDieiWCIGTBmbrdigQ/formResponse">
                         First name:<br>
                         <input type="text" name="entry.109132760" id="entry.109132760"><br>
                         Last name:<br>
@@ -73,16 +73,6 @@
                         <input type="submit" value="Submit">
                     </form>
 
-                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
-
-                    <script type="text/javascript">var submitted=false;</script>
-                    <script type="text/javascript">
-                    $('#gform').on('submit', function(e) {
-                      $('#gform *').fadeOut(2000);
-                      $('#gform').prepend('Your submission has been processed...');
-                      });
-                    </script>
 
 
                 </div>
