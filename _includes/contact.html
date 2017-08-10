@@ -48,11 +48,41 @@
                             <input type="submit" value="Subscribe">
                     </form> -->
 
-                    <form action="https://formspree.io/phys@live.hk” method="POST">
+                    <!-- <form action="https://formspree.io/phys@live.hk” method="POST">
                       <input type="text" name="name">
                       <input type="email" name="_replyto">
                       <input type="submit" value="Send">
+                    </form> -->
+
+                    <form>
+                        First name:<br>
+                        <input type="text" name="firstname"><br>
+                        Last name:<br>
+                        <input type="text" name="lastname">
+                        <input type="email" name="email">
+                        <input type="submit" value="Submit">
                     </form>
+
+                    <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfqzNMqA3vugrL0J04Mk7D2FiWxE5qBqDieiWCIGTBmbrdigQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                        First name:<br>
+                        <input type="text" name="entry.109132760" id="entry.109132760"><br>
+                        Last name:<br>
+                        <input type="text" name="entry.2030178060" id="entry.2030178060">
+                        Email:<br>
+                        <input type="text" name="entry.1403702615" id="entry.1403702615">
+                        <input type="submit" value="Submit">
+                    </form>
+
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+                    <script src="assets/js/jquery.min.js"></script>
+                    <script type="text/javascript">var submitted=false;</script>
+                    <script type="text/javascript">
+                    $('#gform').on('submit', function(e) {
+                      $('#gform *').fadeOut(2000);
+                      $('#gform').prepend('Your submission has been processed...');
+                      });
+                    </script>
 
 
                 </div>
