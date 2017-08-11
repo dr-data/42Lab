@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <!-- <h3 class="section-subheading text-muted">Please contact us</h3> -->
+                    <h3 class="section-subheading text-muted">Please contact us</h3>
                 </div>
             </div>
             <div class="row">
@@ -63,10 +63,17 @@
                         <input type="submit" value="Submit">
                     </form> -->
 
-<div class="col-lg-12 text-center">
-<a href="mailto:data@9lab.co?Subject=question" target="_top" class="text-center">Email us</a>
-</div>
+                    <form method="POST" action="http://formspree.io/data@9lab.co">
+                      <input type="email" name="email" placeholder="Your email">
+                      <textarea name="message" placeholder="Your message"></textarea>
+                      <button type="submit">Send</button>
+                    </form>
 
+
+
+                    <div class="col-lg-12 text-center">
+                    <a href="mailto:data@9lab.co?Subject=question" target="_top" class="text-center">Email us</a>
+                    </div>
 
                 </div>
             </div>
