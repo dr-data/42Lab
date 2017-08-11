@@ -9,9 +9,7 @@ collections:
     title: Uploads
     output: true
 url: https://42Lab.io
-
-baseurl:
-
+baseurl: 
 email: data@9lab.co
 description: First Portable Hardware Platform for Biotech Experiments
 people:
