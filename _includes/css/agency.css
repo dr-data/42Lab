@@ -261,7 +261,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 
-    .navbar-default.navbar-shrink .navbar-brand img {
+    .navbar-brand img {
         background: url(http://42lab.io/img/42lab_logo.png) no-repeat;
     }
 }
