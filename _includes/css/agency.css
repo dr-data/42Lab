@@ -262,7 +262,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink.navbar-brand img {
-        background: url('{{ site.baseurl }}/img/42lab_logo.png') no-repeat;
+        background: url(http://42lab.io/img/42lab_logo.png) no-repeat;
     }
 }
 
