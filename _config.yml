@@ -9,20 +9,20 @@ collections:
     title: Uploads
     output: true
 url: https://42Lab.io
-baseurl: "/42Lab/"
+baseurl: 
 email: data@9lab.co
 description: First Portable Hardware Platform for Biotech Experiments
 people:
 - name: Dr.Data Ng
   pic: 1
-  position: Co-founder and CEO
+  position: Co-founder and CEO of 42Lab
   social:
   - title: twitter
     url: https://twitter.com/Data_ng
   - title: linkedin
     url: https://hk.linkedin.com/in/datackng
 - name: Miss Yasaman Nematbakhsh
-  pic: 1
+  pic: 2
   position: Co-founder and Chief Scientific Officer
   social:
   - title: linkedin
